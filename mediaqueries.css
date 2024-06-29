@@ -1,0 +1,32 @@
+  @media(max-width:768px){
+    .devzur_categories img {
+        width: 100px;
+    }
+    .arrow{
+        display: none;
+    }
+    .devzur_landing-page-img img{
+      width: 250px;
+    }
+
+    .devzur_menu-item-conatiner {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        padding-bottom: 20px; /* Add bottom padding for spacing */
+        margin-bottom: -20px; /* Offset bottom margin */
+        justify-content: flex-start;
+        overflow-x: auto; 
+        scroll-behavior: smooth; 
+        scrollbar-width: none; 
+        -ms-overflow-style: none; 
+        flex-wrap: nowrap;
+    }
+    
+    .devzur_menu-item-container-main {
+        overflow-x: hidden; /* Hide overflow to prevent unnecessary scrollbars */
+        overflow-y: hidden; /* Hide overflow to prevent unnecessary scrollbars */
+    }
+    
+  }
