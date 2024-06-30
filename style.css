@@ -17,7 +17,7 @@ body{
   .shark_nav {
     box-sizing: border-box;
 
-    background: rgba(255, 255, 255, 0.197);
+    background: #777777;
     height: 80px;
     width: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.411);
@@ -240,7 +240,7 @@ body{
   .devzur_category{
     text-align: center;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 500  ;
   }
   
   /* Categroy item container CSS End */
@@ -432,44 +432,25 @@ body{
   text-decoration:underline;
 }
 
-
-
-
-
-
-
-/* whatsapp icon btm left css start */
-.devzur_whatsapp-icon {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  z-index: 1200;
-  background-color: #25D366; /* WhatsApp green */
-  border-radius: 50%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s;
+/* Scrollbar Start */
+::-webkit-scrollbar {
+  height: 3px;
+  width: 5px;
 }
 
-.devzur_whatsapp-icon img {
-  width: 35px;
-  height: 35px;
+::-webkit-scrollbar-track {
+  background: #eeeeee;
 }
 
-.devzur_whatsapp-icon:hover {
-  transform: scale(1.1);
+::-webkit-scrollbar-thumb {
+  background: orange !important;
+
 }
 
-/* whatsapp icon btm left css end */
-
-
-
-
-
+::-webkit-scrollbar-thumb:hover {
+  background: #dddddd;
+}
+/* Scrollbar End */
 
 
 
